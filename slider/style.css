@@ -1,0 +1,48 @@
+@charset "utf-8";
+@supports (scroll-snap-type) {
+    .slider > a {
+        display: none;
+    }
+}
+
+.slider {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    -webkit-scroll-snap-points-x: repeat(300px);
+    -ms-scroll-snap-points-x: repeat(300px);
+    scroll-snap-points-x: repeat(300px);
+    -webkit-scroll-snap-type: mandatory;
+    -ms-scroll-snap-type: mandatory;
+    scroll-snap-type: mandatory;
+}
+
+.slide {
+    width: 300px;
+    flex-shrink: 0;
+    height: 100%;
+    text-align: center;
+}
+
+#slide-1 {
+    background-color: #fff07c;
+}
+
+#slide-2 {
+    background-color: #80ff72;
+}
+
+#slide-3 {
+    background-color: #7ee8fa;
+}
+
+#slide-4 {
+    background-color: #eec0c6;
+}
+
+#slide-5 {
+    background-color: #e58c8a;
+}

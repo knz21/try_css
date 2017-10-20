@@ -1,0 +1,38 @@
+@charset "utf-8";
+body, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+.list1 {
+    background-color: #4BC6B9;
+}
+
+.list2 {
+    background-color: #73C1C6;
+}
+
+.list3 {
+    background-color: #96C3CE;
+}
+
+.list4 {
+    background-color: #A79AB2;
+}
+
+.list5 {
+    background-color: #B57BA6;
+}
+
+ul li p {
+    height: 50px;
+}
+
+ul li span {
+    display: none;
+}
+
+ul li:hover span {
+    height: 150px;
+    display: block;
+}
