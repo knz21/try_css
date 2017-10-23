@@ -1,0 +1,69 @@
+@charset "utf-8";
+img {
+    max-width: 300px;
+    height: auto;
+}
+
+.blur {
+    filter: blur(3px);
+}
+
+.brightness.high {
+    filter: brightness(100%);
+}
+
+.brightness.middle {
+    filter: brightness(50%);
+}
+
+.brightness.low {
+    filter: brightness(20%);
+}
+
+.contrast.high {
+    filter: contrast(100%);
+}
+
+.contrast.middle {
+    filter: contrast(50%);
+}
+
+.contrast.low {
+    filter: contrast(20%);
+}
+
+.drop-shadow {
+    filter: drop-shadow(5px 15px 10px #999999);
+}
+
+.grayscale {
+    filter: grayscale(100%);
+}
+
+.hue-rotate {
+    filter: hue-rotate(120deg);
+}
+
+.invert {
+    filter: invert(100%);
+}
+
+.opacity {
+    filter: opacity(30%);
+}
+
+.saturate.high {
+    filter: saturate(200%);
+}
+
+.saturate.middle {
+    filter: saturate(100%);
+}
+
+.saturate.low {
+    filter: saturate(20%);
+}
+
+.sepia {
+    filter: sepia(100%);
+}
