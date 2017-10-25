@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>attribute selector</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<ul class="attr1">
+    <li>selector: [attr]</li>
+    <li attr="abc">attr="abc"</li>
+    <li attr="abc def">attr="abc def"</li>
+    <li attr="abc-def">attr="abc-def"</li>
+</ul>
+<ul class="attr2">
+    <li>selector: [attr="abc"]</li>
+    <li attr="abc">attr="abc"</li>
+    <li attr="abc def">attr="abc def"</li>
+    <li attr="abc-def">attr="abc-def"</li>
+</ul>
+<ul class="attr3">
+    <li>selector: [attr~="abc"]</li>
+    <li attr="abc">attr="abc"</li>
+    <li attr="abc def">attr="abc def"</li>
+    <li attr="abc-def">attr="abc-def"</li>
+</ul>
+<ul class="attr4">
+    <li>selector: [attr|="abc"]</li>
+    <li attr="abc">attr="abc"</li>
+    <li attr="abc def">attr="abc def"</li>
+    <li attr="abc-def">attr="abc-def"</li>
+</ul>
+<ul class="attr5">
+    <li>selector: [attr^="abc"]</li>
+    <li attr="abc">attr="abc"</li>
+    <li attr="abc def">attr="abc def"</li>
+    <li attr="def">attr="def"</li>
+</ul>
+<ul class="attr6">
+    <li>selector: [attr$="def"]</li>
+    <li attr="abc">attr="abc"</li>
+    <li attr="abc def">attr="abc def"</li>
+    <li attr="def">attr="def"</li>
+</ul>
+<ul class="attr7">
+    <li>selector: [attr*="bc"]</li>
+    <li attr="abc">attr="abc"</li>
+    <li attr="abc def">attr="abc def"</li>
+    <li attr="def">attr="def"</li>
+</ul>
+<!--<ul class="attr8">-->
+    <!--<li>selector: [attr="abc" i]</li>-->
+    <!--<li attr="abc">attr="abc"</li>-->
+    <!--<li attr="ABC">attr="ABC"</li>-->
+    <!--<li attr="AbC">attr="AbC"</li>-->
+<!--</ul>-->
+</body>
+</html>

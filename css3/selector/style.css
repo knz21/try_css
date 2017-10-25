@@ -1,0 +1,38 @@
+@charset "utf-8";
+ul {
+    float: left;
+    list-style: none;
+    text-shadow: 1px 1px 5px #fff;
+}
+
+.attr1 [attr] {
+    background: #C06040;
+}
+
+.attr2 [attr="abc"] {
+    background: #802020;
+}
+
+.attr3 [attr~="abc"] {
+    background: #C04020;
+}
+
+.attr4 [attr|="abc"] {
+    background: #C08060;
+}
+
+.attr5 [attr^="abc"] {
+    background: #400000;
+}
+
+.attr6 [attr$="def"] {
+    background: #602000;
+}
+
+.attr7 [attr*="bc"] {
+    background: #A02020;
+}
+
+/*.attr8 [attr="abc" i] {*/
+    /*background: #C08040;*/
+/*}*/

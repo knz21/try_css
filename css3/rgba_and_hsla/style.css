@@ -1,0 +1,172 @@
+@charset "utf-8";
+.rgba_vs_hsla {
+    font-size: 0;
+}
+
+.rgba_vs_hsla > div {
+    width: 230px;
+    height: 70px;
+    display: inline-block;
+    text-shadow: 1px 1px 3px #fff;
+    font-size: 1rem;
+}
+
+.rgba-r1 {
+    background: rgba(30, 10, 50, 1);
+}
+
+.rgba-r2 {
+    background: rgba(80, 10, 50, 1);
+}
+
+.rgba-r3 {
+    background: rgba(130, 10, 50, 1);
+}
+
+.rgba-r4 {
+    background: rgba(180, 10, 50, 1);
+}
+
+.rgba-r5 {
+    background: rgba(230, 10, 50, 1);
+}
+
+.rgba-g1 {
+    background: rgba(50, 30, 10, 1);
+}
+
+.rgba-g2 {
+    background: rgba(50, 80, 10, 1);
+}
+
+.rgba-g3 {
+    background: rgba(50, 130, 10, 1);
+}
+
+.rgba-g4 {
+    background: rgba(50, 180, 10, 1);
+}
+
+.rgba-g5 {
+    background: rgba(50, 230, 10, 1);
+}
+
+.rgba-b1 {
+    background: rgba(10, 50, 30, 1);
+}
+
+.rgba-b2 {
+    background: rgba(10, 50, 80, 1);
+}
+
+.rgba-b3 {
+    background: rgba(10, 50, 130, 1);
+}
+
+.rgba-b4 {
+    background: rgba(10, 50, 180, 1);
+}
+
+.rgba-b5 {
+    background: rgba(10, 50, 230, 1);
+}
+
+.rgba-a1 {
+    background: rgba(230, 230, 30, .2);
+}
+
+.rgba-a2 {
+    background: rgba(230, 230, 30, .4);
+}
+
+.rgba-a3 {
+    background: rgba(230, 230, 30, .6);
+}
+
+.rgba-a4 {
+    background: rgba(230, 230, 30, .8);
+}
+
+.rgba-a5 {
+    background: rgba(230, 230, 30, 1);
+}
+
+.hsla-h1 {
+    background: hsla(0, 100%, 50%, 1);
+}
+
+.hsla-h2 {
+    background: hsla(50, 100%, 50%, 1);
+}
+
+.hsla-h3 {
+    background: hsla(100, 100%, 50%, 1);
+}
+
+.hsla-h4 {
+    background: hsla(150, 100%, 50%, 1);
+}
+
+.hsla-h5 {
+    background: hsla(200, 100%, 50%, 1);
+}
+
+.hsla-s1 {
+    background: hsla(250, 20%, 50%, 1);
+}
+
+.hsla-s2 {
+    background: hsla(250, 40%, 50%, 1);
+}
+
+.hsla-s3 {
+    background: hsla(250, 60%, 50%, 1);
+}
+
+.hsla-s4 {
+    background: hsla(250, 80%, 50%, 1);
+}
+
+.hsla-s5 {
+    background: hsla(250, 100%, 50%, 1);
+}
+
+.hsla-l1 {
+    background: hsla(300, 100%, 10%, 1);
+}
+
+.hsla-l2 {
+    background: hsla(300, 100%, 30%, 1);
+}
+
+.hsla-l3 {
+    background: hsla(300, 100%, 50%, 1);
+}
+
+.hsla-l4 {
+    background: hsla(300, 100%, 70%, 1);
+}
+
+.hsla-l5 {
+    background: hsla(300, 100%, 90%, 1);
+}
+
+.hsla-a1 {
+    background: hsla(350, 100%, 50%, .2);
+}
+
+.hsla-a2 {
+    background: hsla(350, 100%, 50%, .4);
+}
+
+.hsla-a3 {
+    background: hsla(350, 100%, 50%, .6);
+}
+
+.hsla-a4 {
+    background: hsla(350, 100%, 50%, .8);
+}
+
+.hsla-a5 {
+    background: hsla(350, 100%, 50%, 1);
+}

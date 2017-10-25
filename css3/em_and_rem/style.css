@@ -1,0 +1,28 @@
+@charset "utf-8";
+html {
+    font-size: 16px;
+}
+
+h1.em {
+    font-size: 2em;
+}
+
+span.em {
+    font-size: 1em;
+}
+
+span.em-half {
+    font-size: .5em;
+}
+
+h1.rem {
+    font-size: 2rem;
+}
+
+span.rem {
+    font-size: 1rem;
+}
+
+span.rem-half {
+    font-size: .5rem;
+}
