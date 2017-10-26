@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>pseudo class</title>
+    <link rel="stylesheet" type="text/css" href="pseudo_class.css">
+</head>
+<body>
+<p>:root { background: #333; color: #eee; }</p>
+<div>
+    <p>:nth-child(3)</p>
+    <ul class="pseudo1">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+    </ul>
+</div>
+<div>
+    <p>:nth-child(odd)</p>
+    <ul class="pseudo2">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+    </ul>
+</div>
+<div>
+    <p>:nth-child(even)</p>
+    <ul class="pseudo3">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+    </ul>
+</div>
+<div>
+    <p>:nth-child(4n)</p>
+    <ul class="pseudo4">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+    </ul>
+</div>
+<div>
+    <p>:nth-child(3n+1)</p>
+    <ul class="pseudo5">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+    </ul>
+</div>
+<div class="clear">
+    <p>:nth-last-child(3)</p>
+    <ul class="pseudo6">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+    </ul>
+</div>
+<div>
+    <p>:nth-last-child(odd)</p>
+    <ul class="pseudo7">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+    </ul>
+</div>
+<div>
+    <p>:nth-last-child(even)</p>
+    <ul class="pseudo8">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+    </ul>
+</div>
+<div>
+    <p>:nth-last-child(4n)</p>
+    <ul class="pseudo9">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+    </ul>
+</div>
+<div>
+    <p>:nth-last-child(3n+1)</p>
+    <ul class="pseudo10">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+    </ul>
+</div>
+<div class="clear">
+    <p>p:nth-of-type(3)</p>
+    <div class="pseudo11">
+        <p>1: paragraph</p>
+        <span>1: span</span>
+        <br>
+        <a>1: anchor</a>
+        <p>2: paragraph</p>
+        <span>2: span</span>
+        <br>
+        <a>2: anchor</a>
+        <p>3: paragraph</p>
+        <span>3: span</span>
+        <br>
+        <a>3: anchor</a>
+        <p>4: paragraph</p>
+        <span>4: span</span>
+        <br>
+        <a>4: anchor</a>
+    </div>
+</div>
+<div>
+    <p>span:nth-of-type(odd)</p>
+    <div class="pseudo12">
+        <p>1: paragraph</p>
+        <span>1: span</span>
+        <br>
+        <a>1: anchor</a>
+        <p>2: paragraph</p>
+        <span>2: span</span>
+        <br>
+        <a>2: anchor</a>
+        <p>3: paragraph</p>
+        <span>3: span</span>
+        <br>
+        <a>3: anchor</a>
+        <p>4: paragraph</p>
+        <span>4: span</span>
+        <br>
+        <a>4: anchor</a>
+    </div>
+</div>
+<div>
+    <p>a:nth-of-type(2n)</p>
+    <div class="pseudo13">
+        <p>1: paragraph</p>
+        <span>1: span</span>
+        <br>
+        <a>1: anchor</a>
+        <p>2: paragraph</p>
+        <span>2: span</span>
+        <br>
+        <a>2: anchor</a>
+        <p>3: paragraph</p>
+        <span>3: span</span>
+        <br>
+        <a>3: anchor</a>
+        <p>4: paragraph</p>
+        <span>4: span</span>
+        <br>
+        <a>4: anchor</a>
+    </div>
+</div>
+<div>
+    <p>span:nth-last-of-type(3)</p>
+    <div class="pseudo14">
+        <p>1: paragraph</p>
+        <span>1: span</span>
+        <br>
+        <a>1: anchor</a>
+        <p>2: paragraph</p>
+        <span>2: span</span>
+        <br>
+        <a>2: anchor</a>
+        <p>3: paragraph</p>
+        <span>3: span</span>
+        <br>
+        <a>3: anchor</a>
+        <p>4: paragraph</p>
+        <span>4: span</span>
+        <br>
+        <a>4: anchor</a>
+    </div>
+</div>
+<div>
+    <p>a:nth-last-of-type(odd)</p>
+    <div class="pseudo15">
+        <p>1: paragraph</p>
+        <span>1: span</span>
+        <br>
+        <a>1: anchor</a>
+        <p>2: paragraph</p>
+        <span>2: span</span>
+        <br>
+        <a>2: anchor</a>
+        <p>3: paragraph</p>
+        <span>3: span</span>
+        <br>
+        <a>3: anchor</a>
+        <p>4: paragraph</p>
+        <span>4: span</span>
+        <br>
+        <a>4: anchor</a>
+    </div>
+</div>
+<div>
+    <p>p:nth-last-of-type(2n)</p>
+    <div class="pseudo16">
+        <p>1: paragraph</p>
+        <span>1: span</span>
+        <br>
+        <a>1: anchor</a>
+        <p>2: paragraph</p>
+        <span>2: span</span>
+        <br>
+        <a>2: anchor</a>
+        <p>3: paragraph</p>
+        <span>3: span</span>
+        <br>
+        <a>3: anchor</a>
+        <p>4: paragraph</p>
+        <span>4: span</span>
+        <br>
+        <a>4: anchor</a>
+    </div>
+</div>
+<div class="clear">
+    <p>:first-child</p>
+    <ul class="pseudo17">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+</div>
+<div>
+    <p>:last-child</p>
+    <ul class="pseudo18">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+</div>
+<div>
+    <p>span:first-of-type</p>
+    <div class="pseudo19">
+        <p>1: paragraph</p>
+        <span>1: span</span>
+        <br>
+        <a>1: anchor</a>
+        <p>2: paragraph</p>
+        <span>2: span</span>
+        <br>
+        <a>2: anchor</a>
+        <p>3: paragraph</p>
+        <span>3: span</span>
+        <br>
+        <a>3: anchor</a>
+    </div>
+</div>
+<div>
+    <p>p:last-of-type</p>
+    <div class="pseudo20">
+        <p>1: paragraph</p>
+        <span>1: span</span>
+        <br>
+        <a>1: anchor</a>
+        <p>2: paragraph</p>
+        <span>2: span</span>
+        <br>
+        <a>2: anchor</a>
+        <p>3: paragraph</p>
+        <span>3: span</span>
+        <br>
+        <a>3: anchor</a>
+    </div>
+</div>
+<div>
+    <p>:only-child</p>
+    <div class="pseudo21">
+        <ul>
+            <li>a</li>
+            <li>a</li>
+        </ul>
+        <ul>
+            <li>b</li>
+        </ul>
+        <ul>
+            <li>c</li>
+            <li>c</li>
+            <li>c</li>
+        </ul>
+    </div>
+</div>
+<div>
+    <p>span:only-of-type</p>
+    <div class="pseudo22">
+        <div>
+            <p>paragraph</p>
+            <span>span</span>
+            <br>
+            <span>span</span>
+        </div>
+        <div>
+            <p>paragraph</p>
+            <span>span</span>
+            <br>
+            <a>anchor</a>
+        </div>
+        <div>
+            <span>span</span>
+            <br>
+            <span>span</span>
+            <br>
+            <span>span</span>
+        </div>
+    </div>
+</div>
+<div>
+    <p>:empty</p>
+    <table class="pseudo23">
+        <tr>
+            <td>a</td>
+            <td>b</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>d</td>
+        </tr>
+    </table>
+</div>
+<div>
+    <p>:enabled</p>
+    <div class="pseudo24">
+        <input type="text" value="enabled"/>
+        <input type="text" value="disabled" disabled/>
+    </div>
+</div>
+<div>
+    <p>:disabled</p>
+    <div class="pseudo25">
+        <input type="text" value="enabled"/>
+        <input type="text" value="disabled" disabled/>
+    </div>
+</div>
+<div>
+    <p>:checked + label</p>
+    <div class="pseudo26">
+        <input type="checkbox" id="checkbox1" checked/>
+        <label for="checkbox1">checkbox</label>
+        <br>
+        <input type="checkbox" id="checkbox2"/>
+        <label for="checkbox2">checkbox</label>
+    </div>
+</div>
+<div>
+    <p>:not(:first-child)</p>
+    <ul class="pseudo27">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+</div>
+<div>
+    <p>:target</p>
+    <div class="pseudo28">
+        <p>not target</p>
+        <p id="target">target</p>
+        <p>not target</p>
+    </div>
+    <a href="#target">target</a>
+</div>
+</body>
+</html>

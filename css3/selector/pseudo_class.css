@@ -1,0 +1,154 @@
+@charset "utf-8";
+html {
+    text-shadow: 1px 1px 5px #000;
+}
+
+:root {
+    background: #333;
+    color: #eee;
+}
+
+div {
+    float: left;
+    list-style: none;
+    margin: 10px;
+    width: 200px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+span, a {
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 50px;
+    border: solid 1px #fff;
+}
+
+.clear {
+    clear: both;
+}
+
+.pseudo1 :nth-child(3) {
+    background: #80A0E0;
+}
+
+.pseudo2 :nth-child(odd) {
+    background: #E0E0F0;
+}
+
+.pseudo3 :nth-child(even) {
+    background: #002080;
+}
+
+.pseudo4 :nth-child(4n) {
+    background: #4080E0;
+}
+
+.pseudo5 :nth-child(3n+1) {
+    background: #2040C0;
+}
+
+.pseudo6 :nth-last-child(3) {
+    background: #0080A0;
+}
+
+.pseudo7 :nth-last-child(odd) {
+    background: #60A0E0;
+}
+
+.pseudo8 :nth-last-child(even) {
+    background: #4060C0;
+}
+
+.pseudo9 :nth-last-child(4n) {
+    background: #2060C0;
+}
+
+.pseudo10 :nth-last-child(3n+1) {
+    background: #006080;
+}
+
+.pseudo11 p:nth-of-type(3) {
+    background: #80C020;
+}
+
+.pseudo12 span:nth-of-type(odd) {
+    background: #80C040;
+}
+
+.pseudo13 a:nth-of-type(2n) {
+    background: #A0C040;
+}
+
+.pseudo14 span:nth-last-of-type(3) {
+    background: #60C020;
+}
+
+.pseudo15 a:nth-last-of-type(odd) {
+    background: #60A040;
+}
+
+.pseudo16 p:nth-last-of-type(2n) {
+    background: #406020;
+}
+
+.pseudo17 :first-child {
+    background: #F0F060;
+}
+
+.pseudo18 :last-child {
+    background: #F0F0E0;
+}
+
+.pseudo19 span:first-of-type {
+    background: #F0E020;
+}
+
+.pseudo20 p:last-of-type {
+    background: #F0E040;
+}
+
+.pseudo21 :only-child {
+    background: #E0E040;
+}
+
+.pseudo22 span:only-of-type {
+    background: #E0E060;
+}
+
+.pseudo23 td:empty {
+    background: #F0A040;
+}
+
+.pseudo24 :enabled {
+    background: #F08040;
+}
+
+.pseudo25 :disabled {
+    background: #F0A020;
+}
+
+.pseudo26 :checked + label {
+    background: #E06020;
+}
+
+.pseudo27 :not(:first-child) {
+    background: #F0A060;
+}
+
+.pseudo28 :target {
+    background: #C04000;
+}
