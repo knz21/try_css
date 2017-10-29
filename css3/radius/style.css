@@ -1,0 +1,55 @@
+@charset "utf-8";
+body > div {
+    float: left;
+}
+
+div > div {
+    width: 250px;
+    height: 250px;
+    margin: 10px 10px 50px 10px;
+}
+
+p {
+    height: 30px;
+    margin-left: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+.radius1 {
+    background: #E0E0C0;
+    border-radius: 30px;
+}
+
+.radius2 {
+    background: #E0C0C0;
+    border-radius: 60px / 30px;
+}
+
+.radius3 {
+    background: #E0F0E0;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 50px;
+}
+
+.radius4 {
+    background: #F0C0E0;
+    border-radius: 10px 30px 50px 70px;
+}
+
+.radius5 {
+    background: #E0F0F0;
+    border-radius: 25%;
+}
+
+.radius6 {
+    background: #E0C0A0;
+    border-radius: 50%;
+}
+
+.radius7 {
+    background: #C0A0A0;
+    border-radius: 75%;
+}

@@ -1,0 +1,23 @@
+@charset "utf-8";
+div {
+    width: 800px;
+    height: 400px;
+    margin: 10px;
+    background: url(food_salad_chicken.png) no-repeat #eee;
+}
+
+.bg1 {
+    background-size: 50%;
+}
+
+.bg2 {
+    background-size: 80% 40%;
+}
+
+.bg3 {
+    background-size: cover;
+}
+
+.bg4 {
+    background-size: contain;
+}
