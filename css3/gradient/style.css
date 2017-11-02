@@ -1,0 +1,93 @@
+@charset "utf-8";
+div {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+}
+
+p {
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.gr1 {
+    background-image: linear-gradient(#9D5C63, #D6E3F8);
+}
+
+.gr2 {
+    background-image: linear-gradient(to top left, #9D5C63, #D6E3F8);
+}
+
+.gr3 {
+    background-image: linear-gradient(45deg, #9D5C63, #D6E3F8);
+}
+
+.gr4 {
+    background-image: linear-gradient(#584B53, #9D5C63, #D6E3F8);
+}
+
+.gr5 {
+    background-image: linear-gradient(#584B53 20%, #9D5C63 30%, #D6E3F8);
+}
+
+.gr6 {
+    background-image: repeating-linear-gradient(#584B53, #9D5C63, #D6E3F8 30px);
+}
+
+.gr7 {
+    background-image: linear-gradient(90deg, #584B53 0%, #584B53 33%, #9D5C63 33%, #9D5C63 66%, #D6E3F8 66%);
+}
+
+.gr8 {
+    background-image: repeating-linear-gradient(
+            120deg, #584B53, #584B53 5px, #9D5C63 5px, #9D5C63 10px, #D6E3F8 10px, #D6E3F8 15px);
+}
+
+.gr9 {
+    background-image: radial-gradient(#BBBE64, #443850);
+}
+
+.gr10 {
+    background-image: radial-gradient(at 50px 100px, #BBBE64, #443850);
+}
+
+.gr11 {
+    background-image: radial-gradient(ellipse 40px 80px at 200px 100px, #BBBE64, #443850);
+}
+
+.gr12 {
+    background-image: radial-gradient(circle 60px at 150px 150px, #BBBE64, #443850);
+}
+
+.gr13 {
+    background-image: radial-gradient(closest-side at 50px 50px, #BBBE64, #443850);
+}
+
+.gr14 {
+    background-image: radial-gradient(closest-corner at 50px 50px, #BBBE64, #443850);
+}
+
+.gr15 {
+    background-image: radial-gradient(farthest-side at 50px 50px, #BBBE64, #443850);
+}
+
+.gr16 {
+    background-image: radial-gradient(farthest-corner at 50px 50px, #BBBE64, #443850);
+}
+
+.gr17 {
+    background-image: repeating-radial-gradient(#BBBE64, #443850 20px);
+}
+
+.gr18 {
+    background-image: repeating-radial-gradient(#BBBE64, #443850, #8E5572);
+}
+
+.gr19 {
+    background-image: repeating-radial-gradient(#BBBE64, #443850 20%, #8E5572 100%);
+}
+
+.gr20 {
+    background-image: repeating-radial-gradient(#BBBE64, #BBBE64 10px, #443850 10px, #443850 20px, #8E5572 20px, #8E5572 30px);
+}

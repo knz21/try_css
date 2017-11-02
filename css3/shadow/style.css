@@ -1,0 +1,51 @@
+@charset "utf-8";
+:root {
+    background: #eee;
+}
+
+div {
+    width: 300px;
+    height: 200px;
+    margin: 50px;
+    background: #fff;
+}
+
+.sh1 {
+    box-shadow: 10px 20px #ccc;
+}
+
+.sh2 {
+    box-shadow: 10px 20px 5px #ccc;
+}
+
+.sh3 {
+    box-shadow: 10px 20px 5px 10px #ccc;
+}
+
+.sh4 {
+    box-shadow: 10px 20px 5px 10px #ccc inset;
+}
+
+.sh5 {
+    box-shadow: 10px 20px 5px #ccc inset, 10px 20px 5px #424C55, 10px 20px 5px 10px #3D2C2E;
+}
+
+.sh6 {
+    box-shadow: -10px -20px 5px -5px #ccc;
+}
+
+.sh7 {
+    text-shadow: 3px 3px #886F68;
+}
+
+.sh8 {
+    text-shadow: 3px 3px 5px #886F68;
+}
+
+.sh9 {
+    text-shadow: 5px 5px #886F68, 15px 15px #D1CCDC;
+}
+
+.sh10 {
+    text-shadow: -3px -3px 5px #886F68;
+}
